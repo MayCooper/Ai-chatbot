@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="assets/css/chatbot.css">
+    <link rel="shortcut icon" href="assets/images/chatbot.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Start of chat-container -->
+    <div class="chat-container">
+        <!-- Start of chat-header -->
+        <div class="chat-header">
+            <!-- alt attribute for better description -->
+            <img class="image-container" src="assets/images/chatbot.png" alt="Logo of May's ChatBot">
+            <h2 class="chatbot-name">
+                Chatbot
+            </h2>
+        </div>
+        <!-- End of chat-header -->
+
+        <!-- Start of chat-log with role and aria-live attributes for accessibility -->
+        <div class="chatlog" id="chat-log" role="log" aria-live="polite">
+            <div class="message received">
+                <p id="welcome-message">Welcome to your personal chatbot! How can I assist you today?</p>
+            </div> 
+        </div>
+        <!-- End of chat-log -->
+
+        <!-- Start of chat-input -->
+        <div class="chat-input">
+            <!-- Added label for user-input-field for accessibility -->
+            <label for="user-input-field">Please type your message</label>
+            <input type="text" id="user-input-field" class="user-input" placeholder="Type a Message">
+            <button id="send-btn">Send</button>
+            <button id="clear-btn">Clear</button>
+
+            <button id="voice-btn">Speak</button>
+            <button id="message-reader-btn">Read Current Message</button>
+            <button id="conversation-reader-btn">Read All Messages</button>
+        </div>
+        <!-- End of chat-input -->
+    </div>
+    <!-- End of chat-container -->
+
+    <!-- Start of loading-indicator -->
+    <div id="loading-indicator">
+        <div class="loading-spinner"></div>
+    </div>
+    <!-- End of loading-indicator -->
+
+    <script src="assets/js/chatbot.js"></script>
+</body>
+</html>
