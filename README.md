@@ -18,13 +18,24 @@ Lastly, the project puts a strong emphasis on error handling and fallback strate
 # Some Errors
 Some of the errors that came up through the work process, especially in deployment are the max tokens ChatGPT would take, as well as the type of model. 
 #### Tokens Error
+
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/f4c02785-6030-4fc2-a315-de8a4f421e5a)
 #### Model type 
 Free ChatGPT APIs only accept certain models. I kept getting an error that I had reached capacity when no query was actually executed. Part of the issue was the type of model (da-vinci) that I changed to Curie, and the other issue was the fact that I had to put in my credit card details in order for the free tier to be used.
+
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/ab2aea3b-4e0f-4fa6-8a4b-bddf3ea18249)
+
 #### Env variable OpenAi key error
+
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/7b006223-c79a-44c7-94e9-ebb163dbf4b0)
-In creating th
+
+#### Error
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/bca2511b-f70a-4790-976e-6b697a21eb96)
+
+In creating the project, I encountered an issue where the console gave a 429 error message. The project was unable to access the API key although it was verified. This was because Javascript was reading the .env file with the API key, but also taking the quotation marks the api key had. 
+
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/b27c1a99-8fc9-40f9-9826-a991c5f3e156)
+
 
 
 
