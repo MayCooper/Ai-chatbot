@@ -1,6 +1,12 @@
 # Ai Chatbot with OpenAi APIs
 Building a personal Ai chatbot with dynamic labels and speech functionalities that use the ChatGPT APIs. Built using Javascript, NodeJS, NPM Packages, HTML, CSS. Includes error handling and fallbacks. Additionally, it includes thorough error handling and fallbacks to ensure smooth operations even in unexpected scenarios.
 
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/6307b1c2-2ee1-4d3d-b21c-000699d24b92)
+
+### Note automatic change in Chatbot name
+
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/ad7e4670-3beb-4af6-ab3d-86446649fa37)
+
 # Background
 This project is a construction of a personal AI chatbot that is built around the capabilities of the ChatGPT APIs. 
 
@@ -29,10 +35,9 @@ Free ChatGPT APIs only accept certain models. I kept getting an error that I had
 
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/7b006223-c79a-44c7-94e9-ebb163dbf4b0)
 
-#### Error
-![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/bca2511b-f70a-4790-976e-6b697a21eb96)
-
+#### API Key Error
 In creating the project, I encountered an issue where the console gave a 429 error message. The project was unable to access the API key although it was verified. This was because Javascript was reading the .env file with the API key, but also taking the quotation marks the api key had. 
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/bca2511b-f70a-4790-976e-6b697a21eb96)
 
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/b27c1a99-8fc9-40f9-9826-a991c5f3e156)
 
