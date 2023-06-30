@@ -39,12 +39,11 @@ Free ChatGPT APIs only accept certain models. I kept getting an error that I had
 In creating the project, I encountered an issue where the console gave a 429 error message. The project was unable to access the API key although it was verified. This was because Javascript was reading the .env file with the API key, but also taking the quotation marks the api key had. 
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/bca2511b-f70a-4790-976e-6b697a21eb96)
 
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/b27c1a99-8fc9-40f9-9826-a991c5f3e156)
+
 After dealing with these errors, the chatbot worked without issue, pulling in ChatGPT data:
 
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/6307b1c2-2ee1-4d3d-b21c-000699d24b92)
-
-![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/b27c1a99-8fc9-40f9-9826-a991c5f3e156)
-
 
 
 
