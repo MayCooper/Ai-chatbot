@@ -51,5 +51,7 @@ Here are a few examples of the OpenAPI Chatbot working:
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/43e27251-b492-49f7-8016-4246dde80f71)
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/ea40b227-1607-45be-b7a3-921bd79c1b7e)
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/af2ada20-ca7d-4b4b-9723-6f78ff5320f9)
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/692ea283-60df-4e89-a6d8-fa7e5fd88f11)
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/64fc569d-51d8-4751-95f5-78b15d231b59)
 
 
