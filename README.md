@@ -45,5 +45,11 @@ After dealing with these errors, the chatbot worked without issue, pulling in Ch
 
 ![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/6307b1c2-2ee1-4d3d-b21c-000699d24b92)
 
+Here are a few examples of the OpenAPI Chatbot working: 
+
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/899648cf-2429-4a72-9afb-6598a3d722a6)
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/43e27251-b492-49f7-8016-4246dde80f71)
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/ea40b227-1607-45be-b7a3-921bd79c1b7e)
+![image](https://github.com/MayCooper/Ai-chatbot/assets/82129870/af2ada20-ca7d-4b4b-9723-6f78ff5320f9)
 
 
